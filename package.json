@@ -1,0 +1,14 @@
+{
+  "name": "mixpost-automation-scripts",
+  "version": "1.0.0",
+  "description": "Standalone AI Post Automation CLI for Mixpost & Supabase",
+  "main": "scripts/ai_auto_poster.js",
+  "scripts": {
+    "generate": "node scripts/ai_auto_poster.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.5"
+  }
+}
